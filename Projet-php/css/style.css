@@ -1,0 +1,468 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b30;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------------------INDEX---------------------------------*/
+
+section img{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*BLOC1*/
+
+.bloc1{
+    margin-bottom: 6rem ;
+}
+
+.bloc1 h1{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.bloc1 hr{
+    margin-left: 3rem;
+    width: 50rem;
+    margin-bottom: 6rem;
+}
+
+.bloc1 .left{
+    margin-left: 5rem;
+    width: 45rem;
+    float: left;
+}
+
+.bloc1 img{
+    margin-right: 5rem;
+    width: 35vw;
+    height: 45vh;
+    float: right;
+}
+
+/* changer le positionnement */
+
+.bouton1{
+    margin-left: 20rem;
+    margin-top: 4rem;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+/*BLOC2*/
+
+.bloc2 h1{
+    margin-left: 55rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.bloc2 hr{
+    float: right;
+    margin-right: 5rem;
+    width: 50rem;
+    margin-bottom: 6rem;
+}
+
+.bloc2 .right{
+    margin-top: 3rem;
+    margin-right: 5rem;
+    width: 45rem;
+    float: right;
+}
+
+.bloc2 img{
+    margin-left: 5rem;
+    width: 35vw;
+    height: 45vh;
+    float: left;
+}
+
+.bouton-2{
+    margin-left: 25rem;
+    margin-top: 6rem;
+    padding: 10px 50px;
+    border-radius: 15px;
+    margin-bottom: 10rem;
+}
+
+.top-hr-voiture{
+    margin-top: 4rem;
+    width: 17vw;
+    margin-left: 40rem;
+    margin-bottom: -4rem;
+}
+
+.bottom-hr-voiture{
+    margin-top: 1rem;
+    width: 17vw;
+    margin-left: 37rem;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    padding: 20px;
+    text-align: center;
+    
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*-----------------------------Categorie---------------------------------*/
+
+
+.container_voiture h1{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cat1 img{
+    margin-left: 3rem;
+    width: 25vw;
+    height: 35vh;
+    margin-right: 3rem;
+}
+
+.cat2 img{
+    margin-right: 3rem;
+    width: 25vw;
+    height: 35vh;
+}
+
+.cat3 img{
+    margin-right: 3rem;
+    width: 25vw;
+    height: 35vh;
+}
+
+.container_voiture .cards{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.container_voiture .bouton_1{
+    margin-top: 2rem;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+.container_voiture .bouton_2{
+    margin-top: 2rem;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+.container_voiture .bouton_3{
+    margin-top: 2rem;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+/*-----------------------------Familiale---------------------------------*/
+
+.container_familiale h1{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_familiale h2{
+    border: 2px solid rgb(209, 209, 209);
+    padding: 10px 8px;
+    margin: 40px;
+    margin-right: 80px;
+}
+
+.cards_familiale{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(210, 210, 210);
+    margin-bottom: 10rem;
+}
+
+.container_familiale .card1 img{
+    margin-left: 3rem;
+    width: 27vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.container_familiale .card2 img{
+    width: 30vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.container_familiale .card3 img{
+    width: 30vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.cards_familiale hr{
+    margin-left: 5rem;
+    width: 17rem;
+}
+
+.container_familiale .txt_rs6{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_familiale .txt_a45s{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_familiale .txt_m3{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    width: 28.85rem;
+    border-radius: 0 0 15px 15px;
+}
+
+/*-----------------------------Citadine---------------------------------*/
+
+.container_citadine h1{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_citadine h2{
+    margin-bottom: 2rem;
+    border: 2px solid rgb(209, 209, 209);
+    padding: 10px 10px;
+    margin-right: 3rem;
+}
+
+.cards_citadine{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(210, 210, 210);
+    margin-bottom: 10rem;
+}
+
+.container_citadine .card1 img{
+    margin-left: 3rem;
+    width: 25vw;
+    height: 45vh;
+    margin-right: 3rem;
+}
+
+.container_citadine .card2 img{
+    width: 30vw;
+    height: 45vh;
+    margin-right: 3rem;
+}
+
+.container_citadine .card3 img{
+    width: 30vw;
+    height: 45vh;
+    margin-right: 3rem;
+}
+
+.cards_citadine hr{
+    margin-left: 5rem;
+    width: 17rem;
+}
+
+.container_citadine .txt_rs3{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_citadine .txt_a45s{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_citadine .txt_m3{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    width: 28.80rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.btn-rs3 a{
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+/*-----------------------------SuperCar---------------------------------*/
+
+.container_sprcar h1{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_sprcar h2{
+    border: 2px solid rgb(209, 209, 209);
+    margin-bottom: 2rem;
+    padding: 10px;
+    margin-right: 4rem;
+    margin-left: 3rem;
+}
+
+.cards_sprcar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(210, 210, 210);
+    margin-bottom: 10rem;
+}
+
+.container_sprcar .card1 img{
+    margin-left: 3rem;
+    width: 30vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.container_sprcar .card2 img{
+    width: 30vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.container_sprcar .card3 img{
+    width: 30vw;
+    height: 40vh;
+    margin-right: 3rem;
+}
+
+.cards_sprcar hr{
+    margin-left: 5rem;
+    width: 17rem;
+}
+
+.container_sprcar .txt_ferrari{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_sprcar .txt_r8{
+    padding: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-right: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.container_sprcar .txt_lamborghini{
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(59, 59, 59);
+    width: 28.80rem;
+    border-radius: 0 0 15px 15px;
+}
+
+/*-----------------------------CONTACT---------------------------------*/
+
+.contact{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_a_propos h1{
+    text-align: center;
+}
+
+.top-hr{
+    margin-top: 4rem;
+    width: 15vw;
+    margin-left: 41rem;
+}
+
+.bottom-hr{
+    margin-top: 1rem;
+    width: 15vw;
+    margin-left: 41rem;
+}
+
+/*-------------------------------------NAVBAR-------------------------------------*/
+
+.menu3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 100px;
+}
+
+.menu3 li{
+    display: block;
+    height: 100%;
+    margin-right: 30px;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px #8e54e9;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu3 li:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+}
+.menu3 li:hover::after {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
