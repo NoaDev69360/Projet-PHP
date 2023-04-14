@@ -1,5 +1,6 @@
 <?php
 require_once 'layout/head.php';
+require_once 'data/reservation_process.php';
 ?>
 
 <body>
@@ -8,47 +9,27 @@ require_once 'layout/head.php';
     ?>
     <section class="container_citadine">
 
-        <h1>Citadine</h1>
-
-        <div class="cards_citadine">
-            <div class="card1">
-                <h2>RS3 Full option 400cv</h2>
-                <img src="../img/rs3_fam.jpg" alt="">
-                <div class="txt_rs3">
-                    <h4>700$/jour</h4>
-                    <hr>
-                    <h4>1200$/semaine</h4>
-                    <hr>
-                    <h4>2500$/mois</h4>
+        <h1>citadine</h1>
+        <div class="row row-cols-3">
+            <?php
+            $stmt = $pdo->query("SELECT * FROM voiture WHERE categorie = 4");
+            while ($row = $stmt->fetch()) { ?>
+                <div class="d-flex text-center flex-column g-4 p-5">
+                    <h3><?php echo $row['nom'] . " " . $row['puissance'] ?></h3>
+                    <img class="img-fluid h-50" src="../img/<?php echo $row['image'] ?>" alt="">
+                    <div class="bg-secondary h-100">
+                        <h4><?php echo $row['prix'] ?>$/jour</h4>
+                        <hr>
+                        <h4><?php echo ($row['prix'] * 2) - 200 ?>$/semaine</h4>
+                        <hr>
+                        <h4><?php echo ($row['prix'] * 4) - 1000 ?>$/mois</h4>
+                    </div>
+                    <a href="reservation.php?nomcar=<?php echo $row['nom']; ?>"><button type="button" class="btn btn-primary">Réserver</button></a>
                 </div>
-                <a href="reservation.php"><button type="button" class="btn btn-primary" name="RS3">Réserver</button></a>
-            </div>
+            <?php
+            }
+            ?>
 
-            <div class="card2">
-                <h2>A45s Full option 421cv</h2> 
-                <img src="../img/A45s.jpg" alt="">
-                <div class="txt_a45s">
-                    <h4>700$/jour</h4>
-                    <hr>
-                    <h4>1200$/semaine</h4>
-                    <hr>
-                    <h4>2500$/mois</h4>
-                </div>
-                <a href="reservation.php"><button type="button" class="btn btn-primary" class="btn-A45S" name="A45S">Réserver</button></a>
-            </div>
-
-            <div class="card3">
-                <h2>BMW M3 Full option 425cv</h2>
-                <img src="../img/m3.jpg" alt="">
-                <div class="txt_m3">
-                    <h4>700$/jour</h4>
-                    <hr>
-                    <h4>1200$/semaine</h4>
-                    <hr>
-                    <h4>2500$/mois</h4>
-                </div>
-                <a href="reservation.php"><button type="button" class="btn btn-primary" class="btn-BMWM3" name="BMWM3">Réserver</button></a>
-            </div>
         </div>
     </section>
 

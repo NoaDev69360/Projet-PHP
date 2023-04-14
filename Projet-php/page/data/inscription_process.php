@@ -1,26 +1,7 @@
 <?php
 if (!empty($_POST) && isset($_POST['email_c']) && isset($_POST['nom_c']) && isset($_POST['prenom_c']) && isset($_POST['sexe_c']) && isset($_POST['adresse_c']) && isset($_POST['numero_permis_c']) && isset($_POST['numero_telephone_c']) && isset($_POST['date_naissance_c']) && isset($_POST['password_c']) ) {
-
-    $dbConfig = parse_ini_file('db.ini');
-
-    [
-        'DB_HOST' => $host,
-        'DB_PORT' => $port,
-        'DB_NAME' => $dbName,
-        'DB_CHARSET' => $dbCharset,
-        'DB_USER' => $user,
-        'DB_PASSWORD' => $password
-    ] = $dbConfig;
-
-    $pdo = "mysql:host=$host;port=$port;dbname=$dbName;charset=$dbCharset";
-    $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
-
-    try {
-        $pdo = new PDO($pdo, $user, $password, $options);
-    } catch (PDOException $e) {
-        echo "$host / $port / $dbName / $dbCharset / $user / $password";
-        exit('Une erreur est survenue lors de la connexion à la base de données');
-    }
+    
+    require_once __DIR__ . '/DBinitializer.php';
 
     require_once 'config.php';
     $email_c = $_POST['email_c'];
