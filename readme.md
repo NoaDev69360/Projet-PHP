@@ -10,7 +10,7 @@ Ensuite, j'ai commencé à coder le site en HTML et CSS pour créer une interfac
 J'ai établi le lien entre le code et la base de données en utilisant PDO. J'ai d'abord créé un utilisateur manuellement dans la base de données, puis j'ai codé la fonctionnalité d'identification pour permettre aux utilisateurs de se connecter à mon site.
 
 Étape 4 : CDUD (CRUD) pour la gestion des informations des utilisateurs
-J'ai créé le CDUD (CRUD en français : création, lecture, mise à jour et suppression de données) pour permettre aux utilisateurs de modifier leurs informations personnelles.
+J'ai créé le CDUD (CRUD en français : création, lecture, mise à jour et suppression de données) pour permettre aux utilisateurs de ajouter,modifieret supprimer leurs informations personnelles.
 
 Étape 5 : Génération de photos et d'informations des voitures
 J'ai intégré du code PHP pour générer les photos et les informations des voitures.
