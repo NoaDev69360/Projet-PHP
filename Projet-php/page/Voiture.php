@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/data/DBinitializer.php';
 require_once 'layout/head.php';
 ?>
 

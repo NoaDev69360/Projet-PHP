@@ -1,6 +1,6 @@
 <?php
 require_once 'layout/head.php';
-require_once 'data/reservation_process.php';
+require_once __DIR__ . '/data/DBinitializer.php';
 ?>
 
 <body>

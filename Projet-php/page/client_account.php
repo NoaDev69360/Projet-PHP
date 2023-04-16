@@ -1,12 +1,15 @@
-<?php require_once 'layout/head.php';
+<?php
+require_once 'layout/head.php';
 require_once 'layout/navbar.php';
+require_once __DIR__ . '/data/modification_process.php';
+require_once __DIR__. '/data/delete_process.php';
 ?>
 
 <h1 class="text-center mt-5">Bonjour <?php echo isset($_SESSION['prenom']) ? $_SESSION['prenom'] : ''; ?></h1>
 
 <div class="col-lg-5 mx-auto mt-5">
   
-    <form action="post">
+    <form method="post">
       <div class="col">
         <input type="text" class="form-control mb-3" value="<?php echo isset($_SESSION['nom']) ? $_SESSION['nom'] : ''; ?>" name="account_nom">
       </div>
@@ -16,8 +19,6 @@ require_once 'layout/navbar.php';
       <div class="col">
         <input type="texte" class="form-control mb-3" value="<?php echo isset($_SESSION['sexe']) ? $_SESSION['sexe'] : ''; ?>" name="account_sexe">
       </div>
-        </form>
-        <form methode="post">
       <div class="col">
         <input type="text" class="form-control mb-3" value="<?php echo isset($_SESSION['email']) ? $_SESSION['email'] : ''; ?>" name="account_email">
       </div>
@@ -41,8 +42,9 @@ require_once 'layout/navbar.php';
       </div>
     </form>
 
-<div class="button">
+<form method="post">
   <div class="d-flex justify-content-center gap-3 mb-4">
+    <input type="hidden" value="delete_user" name="delete_user">
     <button type="submit" class="btn btn-danger">Supprimer mon compte</button>
   </div>
-</div>
+</form>
