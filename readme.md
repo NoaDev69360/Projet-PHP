@@ -10,18 +10,12 @@ Ensuite, j'ai commencé à coder le site en HTML et CSS pour créer une interfac
 J'ai établi le lien entre le code et la base de données en utilisant PDO. J'ai d'abord créé un utilisateur manuellement dans la base de données, puis j'ai codé la fonctionnalité d'identification pour permettre aux utilisateurs de se connecter à mon site.
 
 Étape 4 : CDUD (CRUD) pour la gestion des informations des utilisateurs
-<<<<<<< HEAD
 J'ai créé le CDUD (création, lecture, mise à jour et suppression de données) pour permettre aux utilisateurs de ajouter,modifier et supprimer leurs informations personnelles.
-=======
-J'ai créé le CDUD (CRUD en français : création, lecture, mise à jour et suppression de données) pour permettre aux utilisateurs de modifier leurs informations personnelles.
->>>>>>> 1661748 (ajout fichier .gitignore)
 
 Étape 5 : Génération de photos et d'informations des voitures
 J'ai intégré du code PHP pour générer les photos et les informations des voitures.
 
 Étape 6 : Réservation de voitures de luxe
-<<<<<<< HEAD
 Enfin, j'ai permis aux utilisateurs de réserver leur véhicule en confirmant les dates de réservation et en calculant le prix total de la réservation.
-=======
-Enfin, j'ai permis aux utilisateurs de réserver leur véhicule en confirmant les dates de réservation et en calculant le prix total de la réservation.
->>>>>>> 1661748 (ajout fichier .gitignore)
+
+
