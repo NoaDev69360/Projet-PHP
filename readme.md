@@ -1,6 +1,7 @@
 Projet de réservation de voitures de luxe en PHP
 
 **Étape 1 : Modélisation des données**
+
 J'ai commencé par créer un modèle conceptuel de données (MCD) pour identifier les entités et les relations entre les différents éléments du projet. Ensuite, j'ai créé un modèle logique de données (MLD) et un modèle physique de données (MPD) qui m'ont permis de créer une base de données avec quatre tables : Voiture, Client, Catégorie et Réservation.
 
 **Étape 2 : Codage du site en HTML et CSS**
